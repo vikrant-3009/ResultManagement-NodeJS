@@ -1,0 +1,18 @@
+<%- include('./includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body class="container">
+    
+    <%- include('./includes/navigation.ejs') %>
+
+    <div class="hero-1 landing-hero">
+        <h3 class="heading heading-first">Login As</h3>
+        <button class="btn btn-primary btn-hero" onclick="location.href='/teacher'">Teacher</button>
+        <button class="btn btn-primary btn-hero" onclick="location.href='/student'">Student</button>
+    </div>
+
+    <%- include('./includes/footer.ejs') %>
+
+<%- include('./includes/end.ejs') %>

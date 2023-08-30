@@ -1,0 +1,45 @@
+.container {
+    height: 100vh;
+    position: relative;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.landing-hero {
+    margin-top: 4%;
+}
+
+.hero-1 {
+    padding: 5% 1% 6% 1%;
+    text-align: center;
+}
+
+.hero-top {
+    float: right;
+    padding: 0 3%;
+    margin-top: 2%;
+}
+
+.hero-2 {
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+    padding: 2% 3%;
+}
+
+.caption {
+    margin-bottom: 2%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading-first {
+    margin-bottom: 2%;
+}
+
+.btn-hero {
+    margin: 1% 2%;
+    padding: 1.25% 2.75%;
+}

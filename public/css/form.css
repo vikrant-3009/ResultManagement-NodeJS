@@ -1,0 +1,31 @@
+.row {
+    padding: 1% 30%;
+}
+
+.actions {
+    padding: 2.5% 1.5%;
+}
+
+.col-form-label {
+    text-align: left;
+    font-weight: 500;
+}
+
+.btn-login, .btn-reset {
+    margin-top: 1%;
+    margin-right: 2.5%;
+    padding: 1.5% 4%;
+}
+
+.error {
+    color: red;
+}
+
+.error-wrap {
+    padding: 0 30%;
+    margin-top: 2%;
+}
+
+.alert {
+    padding: 0.7% 0;
+}

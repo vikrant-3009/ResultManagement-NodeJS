@@ -1,0 +1,44 @@
+<%- include('../includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body class="container">
+    
+    <%- include('../includes/navigation.ejs') %>
+
+    <div class="hero-1">
+        <h3 class="heading">Teacher Login</h3>
+
+        <% if(typeof alert != 'undefined') { %>
+            <div class="error-wrap">
+                <div class="alert alert-warning" role="alert">
+                    <% if(alert.length === 2) { %>
+                        Invalid Credentials
+                    <% } else { %>
+                        <%= alert[0].msg %>
+                    <% } %>
+                </div>
+            </div>
+        <% } %>
+
+        <form action="/teacher" method="POST" class="row g-3">
+            <div class="col-md-12">
+                <label for="teacherId" class="col-sm-12 col-form-label">Teacher Id*</label>
+                <input type="text" class="form-control" name="teacherId">
+            </div>
+            <div class="col-md-12">
+                <label for="password" class="col-sm-12 col-form-label">Password*</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+            <div class="col-md-12 actions">
+                <button type="submit" class="btn btn-primary btn-login">Login</button>
+                <button type="reset" class="btn btn-danger btn-reset">Clear</button>
+            </div>
+        </form>
+    </div>
+
+    <%- include('../includes/footer.ejs') %>
+
+<%- include('../includes/end.ejs') %>

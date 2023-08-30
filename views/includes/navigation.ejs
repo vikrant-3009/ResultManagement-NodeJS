@@ -1,0 +1,8 @@
+<nav class="nav">
+    <h3 class="heading-nav">Result Management System</h3>
+    <% if (req.cookies.jwt) { %>
+        <form action="/logout" method="GET" class="nav-form">
+            <button class="btn btn-primary btn-nav">Logout</button>
+        </form>
+    <% } %>
+</nav>

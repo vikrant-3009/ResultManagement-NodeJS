@@ -1,0 +1,17 @@
+.nav {
+    background-color: #3dd495;
+    padding: 1.5% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading-nav {
+    text-align: center;
+    color: #313131;
+    padding-left: 34%;
+}
+
+.btn-nav {
+    padding: 0.6rem 1rem;
+}
